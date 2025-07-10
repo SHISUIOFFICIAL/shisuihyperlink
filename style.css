@@ -15,13 +15,14 @@ body {
   box-shadow: 0 0 10px #ff00cc;
 }
 
-input, select, button {
+input, select, button, textarea {
   margin: 1rem 0;
   padding: 0.8rem;
   width: 100%;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
+  resize: none;
 }
 
 button {
@@ -34,8 +35,23 @@ button:hover {
   background-color: #4a00e0;
 }
 
-#result a {
+#resultBlock {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #111827;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
+}
+
+#generatedLink {
+  background: #1f2937;
   color: #00ffd5;
-  text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #374151;
+}
+
+.hidden {
+  display: none;
 }
